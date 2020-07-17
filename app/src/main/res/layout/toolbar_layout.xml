@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@color/colorButtonBg"
+    app:contentInsetStart="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/large_dp"
+            android:src="@drawable/abc_ic_ab_back_material"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/img_back"
+            android:layout_toRightOf="@id/img_back"
+            android:fontFamily="@font/montserrat_semi_bold"
+            android:gravity="center"
+            android:inputType="textNoSuggestions"
+            android:paddingStart="-60dp"
+            android:paddingLeft="-60dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            tools:text="This is title" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>

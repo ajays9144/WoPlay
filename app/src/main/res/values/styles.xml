@@ -1,0 +1,71 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeNoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme_Dark" parent="AppThemeNoAction">
+        <item name="colorPrimary">@color/colorDarkPrimary</item>
+        <item name="colorPrimaryDark">@color/colorDarkPrimaryDark</item>
+        <item name="colorAccent">@color/colorDarkAccent</item>
+        <item name="android:windowBackground">@color/colorDarkBg</item>
+        <item name="android:colorBackground">@color/colorDarkBg</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:textCursorDrawable">@drawable/ic_cursor_dark</item>
+        <item name="android:editTextColor">@color/colorDarkText</item>
+        <item name="android:textColor">@color/colorDarkText</item>
+        <item name="cardBackgroundColor">@color/colorLightText</item>
+        <item name="android:textColorHint">@color/colorDarkHint</item>
+        <item name="colorControlNormal">@color/colorDarkText</item>
+        <item name="colorControlActivated">@color/colorDarkText</item>
+        <item name="colorControlHighlight">@color/colorDarkText</item>
+    </style>
+
+    <style name="Theme_Light" parent="AppThemeNoAction">
+        <item name="colorPrimary">@color/colorLightPrimary</item>
+        <item name="colorPrimaryDark">@color/colorLightPrimaryDark</item>
+        <item name="colorAccent">@color/colorLightAccent</item>
+        <item name="cardBackgroundColor">@color/colorDarkText</item>
+        <item name="android:windowBackground">@color/colorLightBg</item>
+        <item name="android:colorBackground">@color/colorLightBg</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:textCursorDrawable">@drawable/ic_cursor_light</item>
+        <item name="android:editTextColor">@color/colorLightText</item>
+        <item name="android:textColor">@color/colorLightHint</item>
+        <item name="android:textColorHint">@color/colorLightHint</item>
+        <item name="colorControlNormal">@color/colorLightText</item>
+        <item name="colorControlActivated">@color/colorLightText</item>
+        <item name="colorControlHighlight">@color/colorLightText</item>
+    </style>
+
+    <style name="EditText">
+        <item name="android:inputType">text</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+
+    <style name="Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/drw_button_bg</item>
+        <item name="android:layout_margin">@dimen/medium_dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+</resources>

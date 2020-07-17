@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8AB682</color>
+    <color name="colorPrimaryDark">#86B37D</color>
+    <color name="colorAccent">#A16200EE</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorThemeBg">#BAFFFFFF</color>
+    <color name="colorButtonDisableBg">#BE9E9D9D</color>
+    <color name="colorButtonBg">@color/colorPrimary</color>
+    <color name="colorThemeOptionTextColor">#202020</color>
+
+    <!--Light Theme-->
+    <color name="colorLightPrimary">@color/colorPrimary</color>
+    <color name="colorLightPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="colorLightAccent">@color/colorAccent</color>
+    <color name="colorLightBg">@android:color/white</color>
+    <color name="colorLightText">#202020</color>
+    <color name="colorLightHint">#202020</color>
+
+    <!--Dark Theme-->
+    <color name="colorDarkPrimary">@color/colorPrimary</color>
+    <color name="colorDarkPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="colorDarkAccent">@color/colorAccent</color>
+    <color name="colorDarkBg">#202020</color>
+    <color name="colorDarkText">@android:color/white</color>
+    <color name="colorDarkHint">@android:color/white</color>
+
+</resources>
